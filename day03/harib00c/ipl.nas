@@ -19,7 +19,7 @@
 		DW		2					; 磁头数，必须为2
 		DD		0					; 不使用分区，必须为0
 		DD		2880				; 此判断的大小
-		DB		0,0,0x29			; 意义不明，固定
+		DB		0,0,0x29			; 扩展引导标记（固定值）
 		DD		0xffffffff			; 可能是卷标的号码
 		DB		"HARIBOTEOS "		; 磁盘的名称（11个字节）
 		DB		"FAT12   "			; 磁盘格式名称（8字节）
@@ -37,38 +37,61 @@ entry:
 		MOV		ES, AX
 		MOV		CH, 0				; 柱面 0
 		MOV		DH, 0				; 磁头 0
-		MOV		CL, 2				; 扇区 2
+		MOV		CL, 2				; 起始扇区 2
 
+readloop:
+		MOV		SI, 0				; 设置失败计数器
+
+retry:
 		MOV		AH, 0x02			; AH=0x02: 读盘
 		MOV		AL,	1				; 1个扇区
 		MOV		BX, 0				;
 		MOV		DL, 0x00			; A驱动器
 		INT		0x13				; 调用磁盘BIOS
-		JC		error				; jump if carry
+		JNC		next				; 成功则跳转到next
+
+; 是否到达最大失败次数校验
+		ADD		SI, 1				; 失败计数+1
+		CMP		SI, 5				; 比较失败次数是否到达5次
+		JAE		error				; （jump if above or equal）>=5次，跳转到error，报错
+
+; 初始化磁盘读取参数，准备尝试重试
+		MOV		AH, 0x00			; 磁盘控制器复位功能
+		MOV		DL, 0x00			; 驱动器号
+		INT		0x13
+		JMP		retry
+
+next:
+		MOV		AX, ES				; 把内存地址后移0x200
+		ADD		AX, 0x0020
+		MOV		ES, AX				; 因为没有ADD ES, 0x20指令 这里间接赋值一下
+		ADD		CL, 1
+		CMP		CL, 18				; 比较CL与18
+		JBE		readloop			; 如果CL <= 18 跳转至readloop
 
 fin:
-		HLT					; 让CPU停止，等待指令
-		JMP		fin			; 无限循环
+		HLT							; 让CPU停止，等待指令
+		JMP		fin					; 无限循环
 
 error:
 		MOV		SI, msg
 
 putloop:
 		MOV		AL,[SI]
-		ADD		SI,1			; SI + 1
+		ADD		SI,1				; SI + 1
 		CMP		AL,0
 		JE		fin
-		MOV		AH,0x0e			; 显示一个文字
-		MOV		BX,15			; 指定字符颜色
-		INT		0x10			; 调用显卡BIOS
+		MOV		AH,0x0e				; 显示一个文字
+		MOV		BX,15				; 指定字符颜色
+		INT		0x10				; 调用显卡BIOS
 		JMP		putloop
 
 msg:
-		DB		0x0a, 0x0a		; 换行两次
+		DB		0x0a, 0x0a			; 换行两次
 		DB		"load error"
-		DB		0x0a			; 换行
+		DB		0x0a				; 换行
 		DB		0
 
-		RESB	0x7dfe-$		; 用0x00填充到0x7dfe
+		RESB	0x7dfe-$			; 用0x00填充到0x7dfe
 
 		DB		0x55, 0xaa

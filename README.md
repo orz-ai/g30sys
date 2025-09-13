@@ -6,14 +6,16 @@
 
 # 目录
 ## Day01 从计算机结构到汇编程序入门
-- [x] [helloos0](helloos0)
-- [x] [helloos1](helloos1)
-- [x] [helloos2](helloos2)
+- [x] [helloos0](day01/helloos0)
+- [x] [helloos1](day01/helloos1)
+- [x] [helloos2](day01/helloos2)
 
 ## Day02 汇编语言学习与Makefile入门
-- [x] [helloos3](helloos3)
-- [x] [helloos4](helloos4)
-- [x] [helloos5](helloos5)
+- [x] [helloos3](day02/helloos3)
+- [x] [helloos4](day02/helloos4)
+- [x] [helloos5](day02/helloos5)
 
 ## Day03 进入32位模式并导入C语言
-- [x] [harib00a](harib00a)
+- [x] [harib00a](day03/harib00a)
+- [x] [harib00b](day03/harib00b)
+- [x] [harib00c](day03/harib00c)
