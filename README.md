@@ -16,6 +16,13 @@
 - [x] [helloos5](day02/helloos5)
 
 ## Day03 进入32位模式并导入C语言
-- [x] [harib00a](day03/harib00a)
-- [x] [harib00b](day03/harib00b)
-- [x] [harib00c](day03/harib00c)
+- [x] [harib00a: 制作真正的IPL](day03/harib00a)
+- [x] [harib00b: 试错](day03/harib00b)
+- [x] [harib00c: 读到18扇区](day03/harib00c)
+- [x] [harib00d: 读入10个柱面](day03/harib00d)
+- [x] [harib00e: 着手开发操作系统](day03/harib00e)
+- [x] [harib00f: 从启动区执行操作系统](day03/harib00f)
+- [x] [harib00g: 确认操作系统执行情况](day03/harib00g)
+- [x] [harib00h: 32位模式前期准备](day03/harib00h)
+- [x] [harib00i: 导入C语言](day03/harib00i)
+- [x] [harib00j: 实现HLT](day03/harib00j)
