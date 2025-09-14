@@ -1,6 +1,8 @@
 ; haribote-ipl
 ; TAB=4
 
+CYLS	EQU		10					; 加载的柱面数量
+
 		ORG		0x7c00				; 指明程序的装载地址
 
 ; 以下这段是标准FAT12格式软盘专用的代码
@@ -39,6 +41,7 @@ entry:
 		MOV		DH, 0				; 磁头 0
 		MOV		CL, 2				; 起始扇区 2
 
+readloop:
 		MOV		SI, 0				; 设置失败计数器
 
 retry:
@@ -47,7 +50,7 @@ retry:
 		MOV		BX, 0				;
 		MOV		DL, 0x00			; A驱动器
 		INT		0x13				; 调用磁盘BIOS
-		JNC		fin					; 成功则跳转到fin
+		JNC		next				; 成功则跳转到next
 
 ; 是否到达最大失败次数校验
 		ADD		SI, 1				; 失败计数+1
@@ -59,6 +62,22 @@ retry:
 		MOV		DL, 0x00			; 驱动器号
 		INT		0x13
 		JMP		retry
+
+next:
+		MOV		AX, ES				; 把内存地址后移0x200
+		ADD		AX, 0x0020
+		MOV		ES, AX				; 因为没有ADD ES, 0x20指令 这里间接赋值一下
+		ADD		CL, 1
+		CMP		CL, 18				; 比较CL与18
+		JBE		readloop			; 如果CL <= 18 跳转至readloop
+		MOV		CL, 1
+		ADD		DH, 1
+		CMP		DH, 2
+		JB		readloop
+		MOV		DH, 0
+		ADD		CH, 1
+		CMP		CH, CYLS
+		JB		readloop
 
 fin:
 		HLT							; 让CPU停止，等待指令
