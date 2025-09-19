@@ -31,3 +31,7 @@
 - [x] [harib01a: 用C语言实现内存写入](day04/harib01a)
 - [x] [harib01b: 条纹图案](day04/harib01b)
 - [x] [harib01c: 指针挑战](day04/harib01c)
+- [x] [harib01d: 指针的应用(1)](day04/harib01d)
+- [x] [harib01e: 指针的应用(2)](day04/harib01e)
+- [x] [harib01f: 色盘设定](day04/harib01f)
+- [x] [harib01g: 绘制矩形](day04/harib01g)
