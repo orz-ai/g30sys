@@ -26,3 +26,7 @@
 - [x] [harib00h: 32位模式前期准备](day03/harib00h)
 - [x] [harib00i: 导入C语言](day03/harib00i)
 - [x] [harib00j: 实现HLT](day03/harib00j)
+
+## Day04 C语言与画面现实的练习
+- [x] [harib01a: 用C语言实现内存写入](day04/harib01a)
+- [x] [harib01b: 条纹图案](day04/harib01b)
