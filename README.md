@@ -30,3 +30,4 @@
 ## Day04 C语言与画面现实的练习
 - [x] [harib01a: 用C语言实现内存写入](day04/harib01a)
 - [x] [harib01b: 条纹图案](day04/harib01b)
+- [x] [harib01c: 指针挑战](day04/harib01c)
