@@ -35,3 +35,4 @@
 - [x] [harib01e: 指针的应用(2)](day04/harib01e)
 - [x] [harib01f: 色盘设定](day04/harib01f)
 - [x] [harib01g: 绘制矩形](day04/harib01g)
+- [ ] [harib01h: 今天成果](day04/harib01h)
