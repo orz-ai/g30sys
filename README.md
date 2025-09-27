@@ -41,3 +41,4 @@
 - [x] [harib02a: 接收启动信息](day05/harib02a)
 - [x] [harib02b: 试用结构体](day05/harib02b)
 - [x] [harib02c: 试用箭头记号](day05/harib02c)
+- [x] [harib02d: 显示字符](day05/harib02d)
