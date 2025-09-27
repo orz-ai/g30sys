@@ -39,3 +39,4 @@
 
 ## Day05 结构体、文字显示与GDT/IDT初始化
 - [x] [harib02a: 接收启动信息](day05/harib02a)
+- [x] [harib02b: 试用结构体](day05/harib02b)
