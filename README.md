@@ -43,3 +43,4 @@
 - [x] [harib02c: 试用箭头记号](day05/harib02c)
 - [x] [harib02d: 显示字符](day05/harib02d)
 - [x] [harib02e: 增加字体](day05/harib02e)
+- [x] [harib02f: 显示字符串](day05/harib02f)
