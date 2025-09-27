@@ -10,4 +10,4 @@
 # 4. 总结
 定义点阵字符，并显示了一个"A"字符
 
-![启动](./doc_images/harib02d.png)
+![启动](./doc_images/harib02d-01.png)
