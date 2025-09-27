@@ -44,3 +44,4 @@
 - [x] [harib02d: 显示字符](day05/harib02d)
 - [x] [harib02e: 增加字体](day05/harib02e)
 - [x] [harib02f: 显示字符串](day05/harib02f)
+- [x] [harib02g: 显示变量值](day05/harib02g)
