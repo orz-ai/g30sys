@@ -50,3 +50,5 @@
 
 ## Day06 分割编译与中断处理
 - [x] [harib03a: 分割源文件](day06/harib03a)
+- [x] [harib03b: 整理Makefile](day06/harib03b)
+- [x] [harib03c: 整理头文件](day06/harib03c)
