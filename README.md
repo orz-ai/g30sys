@@ -47,3 +47,6 @@
 - [x] [harib02g: 显示变量值](day05/harib02g)
 - [x] [harib02h: 显示鼠标指针](day05/harib02h)
 - [x] [harib02i: GDT与IDT的初始化](day05/harib02i)
+
+## Day06 分割编译与中断处理
+- [x] [harib03a: 分割源文件](day06/harib03a)
