@@ -61,3 +61,4 @@
 - [x] [harib04c: 制作FIFO缓冲区](day07/harib04c)
 - [x] [harib04d: 改善FIFO缓冲区](day07/harib04d)
 - [x] [harib04e: 整理FIFO缓冲区](day07/harib04e)
+- [x] [harib04f: 总算讲到鼠标了](day07/harib04f)
