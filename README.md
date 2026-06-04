@@ -1,4 +1,4 @@
-<img src="./cover.jpg" alt="img" style="zoom:50%;" />
+<img src="https://orz.ai/wp-content/uploads/2026/06/1780589705-cover.jpg" alt="img" style="zoom:50%;" />
 
 # 《30天自制操作系统》学习记录
 相关网站：
