@@ -59,4 +59,5 @@
 - [x] [harib04a: 获取按键编码](day07/harib04a)
 - [x] [harib04b: 加快中断处理](day07/harib04b)
 - [x] [harib04c: 制作FIFO缓冲区](day07/harib04c)
-- [x] [harib04d: 制作FIFO缓冲区](day07/harib04d)
+- [x] [harib04d: 改善FIFO缓冲区](day07/harib04d)
+- [x] [harib04e: 整理FIFO缓冲区](day07/harib04e)
