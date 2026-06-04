@@ -52,3 +52,11 @@
 - [x] [harib03a: 分割源文件](day06/harib03a)
 - [x] [harib03b: 整理Makefile](day06/harib03b)
 - [x] [harib03c: 整理头文件](day06/harib03c)
+- [x] [harib03d: 初始化PIC](day06/harib03d)
+- [x] [harib03e: 中断处理程序的制作](day06/harib03e)
+
+## Day07 FIFO与鼠标控制
+- [x] [harib04a: 获取按键编码](day07/harib04a)
+- [x] [harib04b: 加快中断处理](day07/harib04b)
+- [x] [harib04c: 制作FIFO缓冲区](day07/harib04c)
+- [x] [harib04d: 制作FIFO缓冲区](day07/harib04d)
