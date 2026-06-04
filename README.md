@@ -1,4 +1,4 @@
-<img src="./cover.jpg" alt="img" style="zoom:50%;" />
+<img src="./cover.jpg" alt="img" style="zoom:10%;" />
 
 # 《30天自制操作系统》学习记录
 相关网站：
