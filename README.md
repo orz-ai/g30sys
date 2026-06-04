@@ -1,4 +1,4 @@
-<img src="https://img3.doubanio.com/view/subject/l/public/s11138117.jpg" alt="img" style="zoom:50%;" />
+<img src="./cover.jpg" alt="img" style="zoom:50%;" />
 
 # 《30天自制操作系统》学习记录
 相关网站：
@@ -62,3 +62,4 @@
 - [x] [harib04d: 改善FIFO缓冲区](day07/harib04d)
 - [x] [harib04e: 整理FIFO缓冲区](day07/harib04e)
 - [x] [harib04f: 总算讲到鼠标了](day07/harib04f)
+- [x] [harib04g: 从鼠标接受数据](day07/harib04g)
