@@ -63,3 +63,6 @@
 - [x] [harib04e: 整理FIFO缓冲区](day07/harib04e)
 - [x] [harib04f: 总算讲到鼠标了](day07/harib04f)
 - [x] [harib04g: 从鼠标接受数据](day07/harib04g)
+  
+## Day08 鼠标控制与32位模式切换
+- [x] [harib05a: 鼠标解读](day08/harib05a)
