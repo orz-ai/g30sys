@@ -66,3 +66,4 @@
   
 ## Day08 鼠标控制与32位模式切换
 - [x] [harib05a: 鼠标解读](day08/harib05a)
+- [x] [harib05b: 稍事整理](day08/harib05b)
