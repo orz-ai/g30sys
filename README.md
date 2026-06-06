@@ -75,3 +75,6 @@
 - [x] [harib06b: 内存容量检查(1)](day09/harib06b)
 - [x] [harib06c: 内存容量检查(2)](day09/harib06c)
 - [x] [harib06d: 挑战内存管理](day09/harib06d)
+  
+## Day10 叠加处理
+- [x] [harib07a: 内存管理(续)](day10/harib07a)
