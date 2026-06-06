@@ -69,3 +69,6 @@
 - [x] [harib05b: 稍事整理](day08/harib05b)
 - [x] [harib05c: 鼠标解读(2)](day08/harib05c)
 - [x] [harib05d: 移动鼠标指针](day08/harib05d)
+
+## Day09 内存管理
+- [x] [harib06a: 整理源文件](day09/harib06a)
