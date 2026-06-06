@@ -78,3 +78,4 @@
   
 ## Day10 叠加处理
 - [x] [harib07a: 内存管理(续)](day10/harib07a)
+- [x] [harib07b: 叠加处理](day10/harib07b)
