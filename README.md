@@ -73,3 +73,4 @@
 ## Day09 内存管理
 - [x] [harib06a: 整理源文件](day09/harib06a)
 - [x] [harib06b: 内存容量检查(1)](day09/harib06b)
+- [x] [harib06c: 内存容量检查(2)](day09/harib06c)
