@@ -1,7 +1,5 @@
 # 1. 更新的文件
 1. bootpack.c
-2. bootpack.h
-3. sheet.c
 
 # 2. 启动
 1. 直接执行 `make run`
@@ -9,4 +7,4 @@
 # 3. 知识点
 
 # 4. 总结
-由于harib08b的改动太少所以合并到harib08c了
+[harib08d-01](./doc_images/harib08d-01.png)
