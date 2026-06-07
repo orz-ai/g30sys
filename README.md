@@ -86,3 +86,4 @@
 - [x] [harib08a: 鼠标显示问题](day11/harib08a)
 - [x] [harib08c: shtctl的指定省略](day11/harib08c)
 - [x] [harib08d: 显示窗口](day11/harib08d)
+- [x] [harib08f: 高速计数器](day11/harib08f)
