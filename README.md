@@ -80,3 +80,4 @@
 - [x] [harib07a: 内存管理(续)](day10/harib07a)
 - [x] [harib07b: 叠加处理](day10/harib07b)
 - [x] [harib07c: 提高叠加处理速度](day10/harib07c)
+- [x] [harib07d: 提高叠加处理速度(2)](day10/harib07d)
