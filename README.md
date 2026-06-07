@@ -84,3 +84,4 @@
 
 ## Day11 制作窗口
 - [x] [harib08a: 鼠标显示问题](day11/harib08a)
+- [x] [harib08c: shtctl的指定省略](day11/harib08c)
