@@ -81,3 +81,6 @@
 - [x] [harib07b: 叠加处理](day10/harib07b)
 - [x] [harib07c: 提高叠加处理速度](day10/harib07c)
 - [x] [harib07d: 提高叠加处理速度(2)](day10/harib07d)
+
+## Day11 制作窗口
+- [x] [harib08a: 鼠标显示问题](day11/harib08a)
