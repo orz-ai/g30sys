@@ -2,6 +2,9 @@
 1. timer.c
 2. bootpack.c
 3. bootpack.h
+4. dsctbl.c
+5. naskfunc.nas
+6. Makefile
 
 # 2. 启动
 1. 直接执行 `make run`

@@ -71,7 +71,8 @@ void HariMain(void)
 
 	for (;;)
 	{
-		sprintf(s, "%010d", timerctl.count);
+		count++;
+		sprintf(s, "%010d", count);
 		boxfill8(buf_win, 160, COL8_C6C6C6, 40, 28, 119, 43);
 		putfonts8_asc(buf_win, 160, 40, 28, COL8_000000, s);
 		sheet_refresh(sht_win, 40, 28, 120, 44);
