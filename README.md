@@ -93,3 +93,4 @@
 ## Day12 定时器(1)
 - [x] [harib09a: 定时器](day12/harib09a)
 - [x] [harib09b: 计量时间](day12/harib09b)
+- [x] [harib09c: 超时功能](day12/harib09c)
